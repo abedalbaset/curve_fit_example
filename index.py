@@ -34,11 +34,9 @@ for c in range(0,100):
     arrinputs.append(c)
     arroutputs.append(yaj)
 
-print("arrinputs ",arrinputs)
-print("arroutputs ",arroutputs)
-#markers_on = [12, 17, 18, 19]
-plt.plot(arrinputs, arroutputs, '-bD', markevery=y)
 
-#plt.plot(x,y,'x',x,'r-')
-#plt.plot(arrinputs,arroutputs)
+plt.plot(arrinputs, arroutputs)
+
+plt.plot(x,y,'ro')
+
 plt.show()
